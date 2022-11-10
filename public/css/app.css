@@ -1,0 +1,107 @@
+.container {
+    background-color: rgb(130, 144, 159);
+    /*background-image: linear-gradient(to bottom right,rgb(99, 177, 245),white);*/
+}
+
+.top-logo{
+   
+   /* background-color: blueviolet; */ 
+    
+    
+
+}
+
+.change-lang-nav{
+   /* background-color: azure;*/
+
+    position: fixed;
+    top:0px;
+    padding-top: 0px;
+      
+    
+}
+
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    padding-left: 570px; 
+    
+    
+}
+
+li {
+  
+    display:block;
+    padding-inline: 10px;
+    color:#0a376b;
+    text-decoration:none;
+    
+    
+}
+li a:hover {
+    color: rgb(112, 220, 239);
+  }
+  
+
+
+
+.navbar-brand-img{
+    width:100px;
+    height: 90px;
+   
+}
+
+.topright-logo{
+
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    padding-left: 40px;
+}
+
+.topleft-logo {
+  
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    padding-right: 40px;
+    
+}
+
+
+.header-one{
+
+       position: fixed;
+
+       /* set position */
+       top: 0px;
+       right: 480px;
+   
+       width: 400px;
+       height: 200px;
+       align-content: center;
+      
+}
+.h1{
+    
+    position: fixed;
+    top:25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.h3{
+    padding-left:40px;
+    position: fixed;
+    top: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.h4{
+    padding-left:125px;
+    position: fixed;
+    top:55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
