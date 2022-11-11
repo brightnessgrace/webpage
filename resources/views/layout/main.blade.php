@@ -9,7 +9,11 @@
         
     </head>
     <body class = "container">
+
+        <div class= "header-container">
          @include('layout.header')
+        </div>
+
        <header>
          
        </header>

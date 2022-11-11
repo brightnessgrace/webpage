@@ -21,6 +21,11 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/header', function () {
+    return view('header');
+})->name('header');
+
+
 //pass variable
 //Route::get('/user/{id}/{name}', function($id,$name){
  //   return 'This is my name'.$name.'And this is my id'.$id;
