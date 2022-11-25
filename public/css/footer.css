@@ -1,0 +1,18 @@
+.footer-content
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 96%;
+
+}
+
+.ft-social-media{
+    margin-left: 5%;
+}
+
+.ft-contact{
+
+    margin-left: 30%;
+}

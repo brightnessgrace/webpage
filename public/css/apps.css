@@ -1,0 +1,176 @@
+.body-container{
+    margin: 0;
+    padding: 0;
+    width: 99.9%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+.top-container{
+
+   flex:1;
+   margin-left: 2%;
+   margin-right: 2%;
+   box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
+  
+   
+}
+
+.second-container{
+
+    flex:2;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.2%;
+    padding: 1%;
+    border:2px solid white;
+    background-color: #FFFFFF;
+    box-shadow: 0px -3px  #00BFFF;
+ 
+
+}
+.banner{
+
+    flex: 2;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
+   
+  }
+  
+
+.content-container{
+
+  flex: 4;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);
+  
+}
+
+.footer{
+    flex:0.5;
+    box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.1%;
+    background-color: #808080;
+   
+}
+
+.upper{
+    margin:0;
+    padding:0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(ellipse at top, #FFFFFF, transparent),
+            radial-gradient(ellipse at bottom, #00BFFF, transparent);
+  
+ }
+
+.top-link{
+    flex:1;
+  
+}
+.logos{
+    flex:2;
+   
+}
+
+.logo-cn{
+    width: 100%;
+    margin-top: -0.3%;
+    margin-bottom: -1%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: -0.7%;
+    
+}
+
+.left{
+
+    margin-left: auto;
+    height: 10%;
+    
+}
+.right{
+    
+    margin-right: 5%; 
+    height: 10%; 
+    
+       
+}
+
+.hd-center{
+    
+    margin: auto;
+    padding-left: 2%;
+}
+
+.right-logo{
+
+    margin-top: -0.6%;
+    width:40%;
+    height: 40%;
+}
+
+.left-logo{
+    width:50%;
+    height: 50%;
+
+}
+
+h6{
+    margin-top: 0.5%;
+    /*color: rgb(4, 72, 99);*/
+    color:#000000;
+    text-shadow: 4px 4px 4px #808080;
+    font-size: medium;
+}
+h3{
+    margin-top: 0%;
+    margin-bottom: 0.2%;
+    font-size:x-large;
+    color:#000000;
+    text-shadow: 4px 4px 4px #808080;
+}
+h5{
+    
+    margin-bottom: 0.2%;
+    margin-top: 0.5%;
+    font-size: large;
+    color:#000000;
+    text-shadow: 4px 4px 4px #808080;
+}
+.rgt-tp-link{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+ 
+}
+
+.rgt-tp-link-2{
+    margin-left: 70%;
+    margin-bottom: -0.7%;
+    margin-top: -0.7%;
+   
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+    font-size: medium;
+    font-weight: 800;
+    color:rgb(2, 36, 50);
+    
+}
+
+li a:hover {
+    color: gray;
+  }

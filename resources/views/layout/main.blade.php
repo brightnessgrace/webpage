@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title> PSSSF | Home </title>
-        <link rel="stylesheet" href="{{ asset('css/app.css')}}" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSSSF HOME</title>
+    <link rel="stylesheet" href="{{ asset('css/apps.css')}}" />
+</head>
+<body class="body-container">
+    <div class="top-container">
+       @include('layout.header')
+
+    </div>
+
+    <div class="second-container">
+         @include('navbar')
+    </div>
+
+    <div class="bannner">
+    @include('banner')
+          
+    </div>
+    <div class="content-container">
+   
+        @include('middle')
+    </div>
+    <div class="footer"> 
         
-    </head>
-    <body class = "container">
+       @include('footer')
 
-        <div class= "header-container">
-         @include('layout.header')
-        </div>
+</div>
+</body>
 
-       <header>
-         
-       </header>
-       <main >
-
-       
-            @yield('page-content')
-       </main>
-         
-        
-    </body>
 </html>
