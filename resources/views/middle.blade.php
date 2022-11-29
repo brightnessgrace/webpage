@@ -46,7 +46,7 @@
 
        <div class="news-content">
            <div class="top-news">
-              <div class="alert-box"><blink>News</blink>
+              <div class="alert-box"><blink>Habari Zetu</blink>
              
                </div>
               <div class="narration-box">

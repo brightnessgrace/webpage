@@ -6,8 +6,8 @@
     height:440px;
     display: flex;
     flex-direction: row;
-    /*box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);*/
-    box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);
+    box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
+   
     /*background-color: bisque;*/
     
   /*box-shadow: 8px 8px 5px 8px rgb(178, 205, 215);*/

@@ -5,6 +5,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
+  /*  box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);*/
     
   
 }
@@ -27,7 +29,8 @@
     padding: 1%;
     border:2px solid white;
     background-color: #FFFFFF;
-    box-shadow: 0px -3px  #00BFFF;
+    box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
+    /*box-shadow: 0px -3px  #00BFFF;*/
  
 
 }
@@ -44,20 +47,22 @@
 .content-container{
 
   flex: 4;
-  margin-top: 2%;
+  margin-top: 0.2%;
   margin-left: 2%;
   margin-right: 2%;
-  box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);
+  box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
+  /*box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);*/
   
 }
 
 .footer{
     flex:0.5;
-    box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);
+    /*box-shadow: 12px 0 15px -4px rgb(178, 205, 215), -12px 0 8px -4px rgb(178, 205, 215);*/
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 0.1%;
     background-color: #808080;
+    box-shadow: 1px 5px 15px 1px rgb(178, 205, 215);
    
 }
 
