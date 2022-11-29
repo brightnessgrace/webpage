@@ -1,0 +1,72 @@
+body{
+  margin:0;
+  padding: 0;
+
+}
+
+.menu-nav{
+  margin: 0.5%;
+  padding-left: 10%;
+  overflow: hidden;
+
+  
+}
+/*.act{
+   padding-left: 5%;
+}
+*/
+.menu-nav li{
+  padding: 16px 20px;
+  margin: 0;
+}
+
+
+
+
+
+
+li a:hover {
+  border-bottom: 2px solid #00BFFF;
+  color:#00BFFF;
+  padding-bottom: 1%;
+  
+}
+
+li i{
+
+  padding-left: 1%;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+  
+
+
+
+
+
+

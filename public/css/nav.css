@@ -1,32 +1,70 @@
-body{
-  margin:0;
-  padding: 0;
 
-}
+.navbar {
+    overflow: hidden;
+    margin-left: 10%;
+    margin-bottom: -1%;
+    margin-top: -1%;
+    padding-left: 5%;
+    /*background-color: #333; */
+  }
+  /**special for non drop down */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-weight: bold;
 
-.menu-nav{
-  margin: 0.5%;
-  padding-left: 10%;
+  }
   
-}
-/*.act{
-   padding-left: 5%;
-}*/
-
-.menu-nav li{
-  padding: 16px 20px;
-}
-
-li a:hover {
-  border-bottom: 2px solid #00BFFF;
-  color:#00BFFF;
-  padding-bottom: 1%;
-
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  /*for the drop downs*/
+  .subnav .subnavbtn {
+    font-size: 16px;
+    font-weight: bold;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 16px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
   
-}
-
-
-
-
-
-
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    border-bottom: 2px solid #00BFFF;
+    color:#00BFFF;
+    padding-bottom: 1%;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: relative;
+    left: 0;
+    background-color: #00BFFF;
+    width: 100%;
+    margin-left: 10%;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .subnav-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
