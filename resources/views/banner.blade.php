@@ -11,29 +11,6 @@
   <body>
     <div class="ban-container">
 
-        <div class="banner-heads">
-              
-                <div class="bn-chairperson"> 
-                  <div class="bn-ch">
-                  <img src ="{{ asset('img/banner/engmusa.jpg') }}" class="img-cnt" alt="...">
-                  </div>
-                  <div class="bn-nametags">Eng.Musa Iyombe</br>
-                                           Chairman
-                  </div>
-                </div>
-
-                <div class="bn-secretary">
-                  <div class="bn-sec">
-                  <img src ="{{ asset('img/banner/cpatdg.jpg') }}" class="img-cnt" alt="...">
-                  </div>
-                  <div class="bn-nametags">CPA(T) Hosea Kashimba</br>
-                                          Director General
-                  </div>
-                      
-                </div>
-
-           
-        </div>
     
       <div class="banner-slider">
            <div class="slider-body">
@@ -49,26 +26,30 @@
       
                       <!-- radio button end--> 
                         <!--image slide starts-->
-                        <div class="slide first">
-                          
-                         <img src ="{{ asset('img/benefit/oldage.jpg') }}" class="img-bn-cnt" alt="..."> 
+                        <div class="slide first">   
+                         <img src ="{{ asset('img/banner/dgprize.jpg') }}" class="img-bn-cnt" alt="..."> 
                         </div>
 
                         <div class="slide">     
-                          <img src = "{{ asset('img/benefit/dg1.jpg')}}"  class="img-bn-cnt"  alt="..."> 
+                          <img src = "{{ asset('img/banner/dgprize.jpg')}}"  class="img-bn-cnt"  alt="..."> 
+                        </div>
+
+                        <div class="slide">     
+                          <img src = "{{ asset('img/banner/twintower.jpg')}}"  class="img-bn-cnt"  alt="..."> 
                         </div>
 
                         <div class="slide">
                          <img src ="{{ asset('img/benefit/A2.jpg') }}" alt="..."> 
-                         </div>
+                        </div>
 
                          <!--image slide ends-->
                              <!--automatic navigation start-->
                            <div class="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
+                            <span class="dot"></span> 
 
                            </div>
                              <!--automatic navigation end-->           
@@ -133,4 +114,28 @@
         </div>
     </div>
   </body>
+
+  
+  <script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("slide");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+  }
+  </script>
+
 </html>
