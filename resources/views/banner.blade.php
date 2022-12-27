@@ -27,20 +27,28 @@
                       <!-- radio button end--> 
                         <!--image slide starts-->
                         <div class="slide first">   
-                         <img src ="{{ asset('img/banner/dgprize.jpg') }}" class="img-bn-cnt" alt="..."> 
+                         <img src ="{{ asset('img/slider/bg1.jpg') }}" class="img-bn-cnt" alt="..."> 
+                           <div class="col-md-12">
+                            <h4 class="slide-title-classic animated3">Enabling businesses to <br/>  secure your family.</h4>
+                            <p class="slider-description lead animated3">Nobody’s more committed to connecting you with the exceptional <br/> top talents with the right fit for your business than us.</p>
+                            <p class="animated3">
+                            <a href="#" class="slider btn btn-primary">Our Services</a>
+                            <a href="#" class="slider btn btn-border">Contact Us</a>
+                            </p>       
+                           </div>
+                        
                         </div>
 
                         <div class="slide">     
-                          <img src = "{{ asset('img/banner/dgprize.jpg')}}"  class="img-bn-cnt"  alt="..."> 
+                          <img src = "{{ asset('img/slider/bg2.jpg')}}"  class="img-bn-cnt"  alt="..."> 
                         </div>
 
                         <div class="slide">     
-                          <img src = "{{ asset('img/banner/twintower.jpg')}}"  class="img-bn-cnt"  alt="..."> 
+                          <img src = "{{ asset('img/slider/bg3.jpg')}}"  class="img-bn-cnt"  alt="..."> 
+                        
                         </div>
 
-                        <div class="slide">
-                         <img src ="{{ asset('img/benefit/A2.jpg') }}" alt="..."> 
-                        </div>
+                      
 
                          <!--image slide ends-->
                              <!--automatic navigation start-->
@@ -69,49 +77,7 @@
            </div>
       </div>
 
-        <div class="banner-online-service">
-            <div class="bn-mp">
-                <div class="side-bn">
-                  <div class="flip-bmp">
-                    <div class="flip-bmp-front">
-                     <img src = "{{ asset('img/banner/handportal.jpg')}}"  class="img-cnt-side"  alt="...">
-                    </div> 
-                     <div class="flip-bmp-back">
-                        <h7>Login To Member Portal</h7>
-                      </div>
-                </div>
-                </div>
-            </div>
-
-
-            <div class="bn-emp">
-              <div class="side-bn">
-                <div class="flip-bmpb">
-                    <div class="flip-bmp-frontb">
-                     <img src = "{{ asset('img/banner/billportal.jpg')}}" class="img-cnt-side"   alt="...">
-                </div>
-                <div class="flip-bmp-backb">
-                        <h7>Login To Billing Portal</h7>
-                      </div>
-                  </div>
-                  </div>  
-            </div>
-
-
-            <div class="bn-onl">
-              <div class="side-bn">
-               <div class="flip-bmpo">
-                    <div class="flip-bmp-fronto">
-                     <img src = "{{ asset('img/banner/onlinesubmission.jpg')}}" class="img-cnt-side"   alt="...">
-                </div>
-                <div class="flip-bmp-backo">
-                        <h7>Online Form Submission</h7>
-                      </div>
-                  </div>
-              </div>
-            </div>
-
-        </div>
+       
     </div>
   </body>
 

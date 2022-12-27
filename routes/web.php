@@ -26,6 +26,7 @@ Route::get('/header', function () {
 })->name('header');
 
 
+
 //pass variable
 //Route::get('/user/{id}/{name}', function($id,$name){
  //   return 'This is my name'.$name.'And this is my id'.$id;

@@ -1,0 +1,123 @@
+.cnt-culture{
+    background-color: #152028;
+    height: 300px;
+    width:99.9%;
+    color: ghostwhite;
+   
+}
+
+.cnt-cnt-culture{
+
+    display: flex;
+    flex-direction: row;
+    margin-left:20%;
+}
+
+.vision{
+
+    margin-bottom:2%;  
+    width:150px;
+    height: 150px;
+    margin-top: 5%;
+    position: relative;
+    
+
+}
+
+.vision img {
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+  }
+
+
+  .cnt-cnt-culture > div:first-child {
+   
+    margin-right: 30px;
+}
+
+
+
+.cnt-cnt-culture > div:not(:first-child){
+  
+    margin-left: 15%;
+    
+}
+
+.vision h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8%;
+    font-family: monospace;
+}
+
+
+
+
+.vision div{
+
+       visibility: hidden;
+       color: rgb(52, 52, 53);
+       background-color: #66dcf4;
+       font-family: monospace;
+       font-weight: 800;
+       padding: 1%;
+       position:absolute;
+       top:-34%;
+       left: -15%;
+       height: 250px;
+       width: 130%;
+       opacity: 0.1;
+       -webkit-transition: visibility 0s, opacity 0.5s linear; 
+       transition: visibility 0.3s, opacity 0.5s linear;
+       border-radius: 0px 0px 10px 10px;
+      
+   }
+
+   .vision div p{
+
+     margin-top: 1%;
+     padding: 2%;
+   }
+
+
+.vision img:hover{
+
+    opacity: 0.5;
+  
+    
+}
+
+.vision:hover div{
+    visibility: visible;
+    opacity: 0.9; 
+}
+
+
+.vision div:after{
+
+    content: '';
+    position:absolute;
+    left:0;
+    bottom:0;
+    height: 2px; /*thickness*/
+    width: 0;
+    background: red;
+    transition: .7s;
+  }
+  .vision div:before{
+     content: '';
+     position:absolute;
+     right:0;
+     top:0;
+     height: 2px;
+     width: 0;
+     background:#344755; /*noeffect since disbled bellow*/
+     transition: .7s;
+  }
+  
+  .vision div:hover:before{
+ /* .vision div:hover::after{*/
+  
+    width:100%;
+  }

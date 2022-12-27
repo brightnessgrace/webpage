@@ -12,9 +12,10 @@
    <div class="footer-content">
 
     <div class="ft-social-media">
-       <p>instagram</p>
-       <p>twitter</p>
-       <p> facebook </p>
+       <p> <i class="fa fa-instagram"> </i><a href="#instagram">instagram</a></p>
+       <p><i class="fa fa-twitter"> </i><a href="#twiter"> twitter </a></p>
+       <p> <i class="fa fa-facebook"> </i> <a href="#facebook">facebook </a></p>
+       <p> <i class="fa fa-youtube"> </i><a href="#youtube"> youtube </a></p>
     </div>
 
      <div class="ft-contact">
